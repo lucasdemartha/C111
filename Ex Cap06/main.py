@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df_countries = pd.read_csv(r'C:\Users\User\Desktop\C111\Ex Cap06\paises.csv', delimiter=';')
-df_space = pd.read_csv(r'C:\Users\User\Desktop\C111\Ex Cap06\space.csv', delimiter=';')
+df_countries = pd.read_csv(r'C:\Users\lucas\OneDrive\Desktop\C111\Ex Cap06\paises.csv', delimiter=';')
+df_space = pd.read_csv(r'C:\Users\lucas\OneDrive\Desktop\C111\Ex Cap06\space.csv', delimiter=';')
 
 print(df_space.columns)
 print()

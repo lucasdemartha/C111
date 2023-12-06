@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # Importando o csv
-dfPaises = pd.read_csv('Paises.csv', delimiter=';')
+dfPaises = pd.read_csv(r'C:\Users\lucas\OneDrive\Desktop\C111\Estudos prova2\paises.csv', delimiter=';')
 print(dfPaises.head(0))
 
 # Exércicio 1
@@ -16,7 +16,7 @@ print(dfLatinAme_Caribe)
 # Exércicio 2
 print('\033[1m' + 'Exercício 2' + '\033[0m \n')
 
-Region_uni = dfPaises['Region'].unique() 
+Region_uni = dfPaises['Region'].unique()
 CountRegion_uni = np.count_nonzero(Region_uni)
 
 print(f'Quantidade de Regiões: {CountRegion_uni} \n')
